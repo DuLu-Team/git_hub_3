@@ -5,9 +5,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: Text("Hello World"),
+      body: Column(
+        children: [Text("Hello World"),]
+         
+
       ),
+      
     );
   }
 }
