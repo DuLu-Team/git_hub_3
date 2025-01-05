@@ -6,7 +6,7 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Login Page"),
+        title: const Text("Login Page Data Changed"),
       ),
     );
   }
